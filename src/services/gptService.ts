@@ -12,7 +12,7 @@ export const generateItinerary = async (data: { destination: string; date: strin
 
     try {
         const response = await axios.post("https://api.openai.com/v1/chat/completions", {
-            model: "gpt-3.5-turbo-1106",
+            model: "gpt-3.5-turbo-0125",
             messages: [{ role: "system", content: "You are a travel planning assistant." }, { role: "user", content: prompt }],
             response_format: { type: "json_object" },
             max_tokens: 4090,
