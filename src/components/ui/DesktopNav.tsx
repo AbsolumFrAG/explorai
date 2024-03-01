@@ -23,7 +23,7 @@ const DesktopNav = () => {
                 <NavLink to="/blog" className="transition-color rounded-full px-8 py-[14px] duration-150 hover:text-cyan-400">
                     Blog
                 </NavLink>
-                <Link target="_blank" to="https://voyagio.canny.io/feature-requests" className="transition-color rounded-full px-8 py-[14px] duration-150 hover:text-cyan-400">
+                <Link target="_blank" to="https://tripwise.canny.io/feature-requests" className="transition-color rounded-full px-8 py-[14px] duration-150 hover:text-cyan-400">
                     Feedback
                 </Link>
                 {!user ? (

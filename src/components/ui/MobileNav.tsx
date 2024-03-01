@@ -36,7 +36,7 @@ const MobileNav = React.memo(() => {
                     <hr className="w-[80%] opacity-30" />
                     {renderNavLink("/blog", "Blog")}
                     <hr className="w-[80%] opacity-30" />
-                    <Link target="_blank" to="https://voyagio.canny.io/feature-requests" className="transition-color text-2xl font-semibold duration-150 hover:text-blue-400" onClick={toggleMenu}>
+                    <Link target="_blank" to="https://tripwise.canny.io/feature-requests" className="transition-color text-2xl font-semibold duration-150 hover:text-blue-400" onClick={toggleMenu}>
                         Feedback
                     </Link>
                     {user ? (
