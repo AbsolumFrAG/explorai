@@ -1,0 +1,71 @@
+import React, { ChangeEvent, FormEvent, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { UserAuth } from "../../../context/AuthContext";
+import { Props } from "../../../types/SignInProps";
+
+const SignIn: React.FC<Props> = ({ setState }) => {
+    const [email, setEmail] = useState<string>("");
+    const [password, setPassword] = useState<string>("");
+
+    const { signIn, clearError, setError } = UserAuth();
+    const navigate = useNavigate();
+
+    const handleEmailChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setEmail(e.target.value);
+
+        clearError();
+    };
+
+    const handlePasswordChange = (e: ChangeEvent<HTMLInputElement>) => {
+        setPassword(e.target.value);
+
+        clearError();
+    };
+
+    const handleSignIn = async (e: FormEvent<HTMLFormElement>) => {
+        e.preventDefault();
+        clearError();
+        try {
+            await signIn(email, password);
+            navigate("/account");
+        } catch (e) {
+            if (e instanceof Error) {
+                setError(e.message);
+            }
+        }
+    };
+
+    const switchToSignUp = () => {
+        clearError();
+        setState(false);
+    };
+
+    return (
+        <div className="col-span-1 col-start-1 h-full w-full">
+            <form className="relative w-full space-y-6 px-8 py-8 sm:w-96" onSubmit={handleSignIn}>
+                <div>
+                    <h2 className="text-left text-3xl font-bold text-gray-800">Se connecter</h2>
+                </div>
+                <div>
+                    <input className="placeholder:text-md w-full rounded-full border border-gray-300 bg-gray-50 p-4 text-gray-500 placeholder:text-gray-400 focus:outline-none" type="email" name="sign-in-email" id="sign-in-email" autoComplete="true" onChange={handleEmailChange} placeholder="Email" />
+                </div>
+                <div>
+                    <input className="placeholder:text-md mb-2 w-full rounded-full border border-gray-300 bg-gray-50 p-4 text-gray-500 placeholder:text-gray-400 focus:outline-none" type="password" name="sign-in-password" id="sign-in-password" autoComplete="current-password" onChange={handlePasswordChange} placeholder="Mot de passe" />
+                </div>
+                <div>
+                    <button className="button mb-4 w-full rounded-full bg-blue-500 py-3 text-xl text-white" type="submit">
+                        Se connecter
+                    </button>
+                    <p className="text-center text-gray-400">
+                        Vous n'avez pas de compte ?{" "}
+                        <span onClick={switchToSignUp} className="hover:underline">
+                            S'inscrire
+                        </span>
+                    </p>
+                </div>
+            </form>
+        </div>
+    );
+};
+
+export default SignIn;
