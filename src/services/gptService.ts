@@ -15,7 +15,7 @@ export const generateItinerary = async (data: { destination: string; date: strin
             model: "gpt-3.5-turbo-0125",
             messages: [{ role: "system", content: "Tu es un assistant en organisation de voyages." }, { role: "user", content: prompt }],
             response_format: { type: "json_object" },
-            max_tokens: 8000,
+            max_tokens: 4096,
         }, {
             headers: {
                 "Authorization": `Bearer ${API_KEY}`,
