@@ -43,7 +43,7 @@ const About: React.FC = () => {
 
     return (
         <div style={{ backgroundImage: "linear-gradient(to top, rgba(0,0,0,0.1), rgba(245,245,245,0.5),rgba(0,0,0,0)), url('https://img.freepik.com/premium-vector/vector-white-abstract-futuristic-background-with-perspective-infinity-grid-tile-floor-texture_547648-3196.jpg')" }} className="w-full bg-cover bg-center px-6 pb-40 pt-16">
-            <h2 className="mx-auto mb-6 max-w-6xl text-5xl font-extrabold text-gray-800 sm:mb-16 ">Comment utiliser Tripwise ?</h2>
+            <h2 className="mx-auto mb-6 max-w-6xl text-5xl font-extrabold text-gray-800 sm:mb-16 ">Comment utiliser ExplorAI ?</h2>
             <div className="mx-auto max-w-6xl gap-8">
                 {about.map((item, id) => (
                     <div key={id} className="mb-8 flex flex-col justify-between gap-8 lg:flex-row">

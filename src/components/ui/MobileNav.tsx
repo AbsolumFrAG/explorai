@@ -22,7 +22,7 @@ const MobileNav = React.memo(() => {
         <div className={`bg-gray-800 py-6 sm:bg-gradient-to-b sm:from-[#00000060] sm:to-transparent ${hasGrayBg ? "bg-gray-800" : ""}`}>
             <div className="mx-auto flex items-center justify-between px-4">
                 <NavLink to="/">
-                    <img src="/logo.svg" className="w-10" alt="Logo Tripwise" />
+                    <img src="/logo.svg" className="w-10" alt="Logo ExplorAI" />
                 </NavLink>
                 <button aria-label="Ouvrir le Menu" className="text-xl font-bold" onClick={toggleMenu}>
                     <FontAwesomeIcon className="text-3xl text-white" icon={isOpen ? faX : faBars} />

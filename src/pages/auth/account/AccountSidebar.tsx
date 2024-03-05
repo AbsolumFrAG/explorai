@@ -7,7 +7,7 @@ import { SidebarProps } from "../../../types/SidebarTypes";
 const Sidebar: React.FC<SidebarProps> = ({ links, setAccountSection, user, logout }) => {
     const isMobile = useMediaQuery({ maxWidth: 768 });
 
-    const menuTitle = isMobile ? "Paramètres du compte" : "Tripwise";
+    const menuTitle = isMobile ? "Paramètres du compte" : "ExplorAI";
 
     return (
         <div id="sidebar" className="flex h-fit flex-col justify-between rounded-3xl border border-gray-200 bg-white p-6 shadow-2xl sm:col-span-1">

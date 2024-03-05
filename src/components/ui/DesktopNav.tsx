@@ -12,7 +12,7 @@ const DesktopNav = () => {
         <div className="to-transparent fixed box-border w-full bg-gradient-to-b from-gray-800 py-4 text-white">
             <div className="mx-auto flex w-fit items-center overflow-hidden rounded-full border-[1px] border-white border-opacity-20 bg-blue-100 bg-opacity-20 text-xl font-bold shadow-2xl backdrop-blur-xl">
                 <NavLink className="mr-4" to="/">
-                    <img src="/logo.svg" className="h-[58px] rounded-full" alt="Logo Tripwise" />
+                    <img src="/logo.svg" className="h-[58px] rounded-full" alt="Logo ExplorAI" />
                 </NavLink>
                 <NavLink to="/" className="transition-color rounded-full px-8 py-[14px] duration-150 hover:text-cyan-400">
                     Accueil
