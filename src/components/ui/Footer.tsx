@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
     return (
         <footer className="bg-gray-900 py-8 text-white">
             <div className="mx-auto max-w-screen-xl px-4 text-center">
-                <p className="text-sm font-semibold">© {new Date().getFullYear()} Tripwise AI. All rights reserved.</p>
+                <p className="text-sm font-semibold">© {new Date().getFullYear()} ExplorAI. All rights reserved.</p>
                 <div className="mt-4 flex justify-center space-x-6">
                     {footerLinks.map((link, id) => (
                         <Link key={id} to={link.to} className="text-gray-400 hover:text-gray-300">
