@@ -9,8 +9,8 @@ const DesktopNav = () => {
     const navLoadClass = loading ? "opacity-0" : "";
 
     return (
-        <div className="to-transparent fixed box-border w-full bg-gradient-to-b from-gray-800 py-4 text-white">
-            <div className="mx-auto flex w-fit items-center overflow-hidden rounded-full border-[1px] border-white border-opacity-20 bg-blue-100 bg-opacity-20 text-xl font-bold shadow-2xl backdrop-blur-xl">
+        <div className="fixed box-border w-full border-b border-b-slate-800 bg-slate-950 py-4 text-gray-100">
+            <div className="m-auto flex max-w-7xl items-center justify-between text-xl font-bold">
                 <NavLink className="mr-4" to="/">
                     <img src="/logo.svg" className="h-[58px] rounded-full" alt="Logo ExplorAI" />
                 </NavLink>
