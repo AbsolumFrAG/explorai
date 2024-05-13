@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@ctrl/react-adsense':
-        specifier: ^1.7.0
-        version: 1.7.0
       '@fortawesome/fontawesome-svg-core':
         specifier: ^6.5.2
         version: 6.5.2
@@ -339,9 +336,6 @@ packages:
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
     engines: {node: '>=12'}
-
-  '@ctrl/react-adsense@1.7.0':
-    resolution: {integrity: sha512-TrDGbAo8KRPHnX/Jtv9CkMV90vK7M/sz8KNECTQgcsHO4e5GyNZL3jqCY4WA0MCwfT48NH34qzyV9e2SWsceLw==}
 
   '@esbuild/aix-ppc64@0.20.2':
     resolution: {integrity: sha512-D+EBOJHXdNZcLJRBkhENNG8Wji2kgc9AZ9KiPr1JuZjsNtyHzrsfLRrY0tk2H2aoFu6RANO1y1iPPUCDYWkb5g==}
@@ -3765,10 +3759,6 @@ snapshots:
   '@cspotcode/source-map-support@0.8.1':
     dependencies:
       '@jridgewell/trace-mapping': 0.3.9
-
-  '@ctrl/react-adsense@1.7.0':
-    dependencies:
-      tslib: 2.6.2
 
   '@esbuild/aix-ppc64@0.20.2':
     optional: true
