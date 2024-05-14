@@ -186,7 +186,7 @@ const ItineraryPlanner = () => {
                             </p>
                         )}
                     </h4>
-                    <input id="length" type="range" min="1" max="14" name="length" value={state.length} onChange={handleInputChange("length")} className="h-10 w-full rounded-full bg-transparent py-2" />
+                    <input id="length" type="range" min="1" max="5" name="length" value={state.length} onChange={handleInputChange("length")} className="h-10 w-full rounded-full bg-transparent py-2" />
                 </div>
 
                 {/*Group Size*/}
