@@ -2,7 +2,7 @@ import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 
-const searchPhrases = ["Top 10 bars dans Budapest", "Randonnées au Népal", "Les meilleurs clubs de Berlin", "Où trouver de la nourriture locale", "Location de voiture à Rome"];
+const searchPhrases = ["Top 10 bars dans Budapest", "Randonnées au Népal", "Les meilleurs clubs de Berlin", "Où trouver de la nourriture locale ?", "Location de voiture à Rome"];
 
 const TypingEffect: React.FC = () => {
     const [displayedText, setDisplayedText] = useState("");

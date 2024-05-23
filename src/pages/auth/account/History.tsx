@@ -95,7 +95,7 @@ const History: React.FC = () => {
     };
 
     const dayOrDays = (numberOfDays: number) => {
-        return numberOfDays > 1 ? "Jours dans " : "Jour dans ";
+        return numberOfDays > 1 ? "Jours à " : "Jour à ";
     };
 
     if (error) {

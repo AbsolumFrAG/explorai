@@ -1,0 +1,86 @@
+{
+	"account": {
+		"account": "Akun :",
+		"account-settings": "Pengaturan akun",
+		"actual-subscription": "Langganan saat ini:",
+		"day-in": "Hari di",
+		"days-in": "Hari-hari di",
+		"free-service": "(Saat ini layanan kami gratis untuk semua orang)",
+		"guide-support": "Panduan & Dukungan",
+		"help": "Membantu",
+		"history": "Historis",
+		"previous-itineraries": "Rencana perjalanan sebelumnya",
+		"subscription": "Berlangganan"
+	},
+	"footer": {
+		"contact": "Kontak",
+		"privacy-policy": "Kebijakan pribadi",
+		"terms-of-use": "Syarat Penggunaan"
+	},
+	"home": {
+		"accordion": {
+			"fifth-entry-description": "ExplorAI memungkinkan Anda mengedit agenda perjalanan secara fleksibel, memberi Anda kebebasan untuk memindahkan, memasukkan, atau mengecualikan tujuan untuk membuat rencana perjalanan yang sesuai dengan selera dan jadwal pribadi Anda.",
+			"fifth-entry-title": "Bagaimana cara mengubah rencana perjalanan saya dengan ExplorAI?",
+			"first-entry-description": "Bayangkan seorang konsultan perjalanan berdedikasi, mudah diakses di perangkat seluler Anda kapan saja. ExplorAI menghadirkan hal tersebut kepada Anda: platform intuitif untuk mengatur perjalanan Anda dengan mudah, menyediakan rencana perjalanan yang disesuaikan secara gratis. Temukan kenyamanan perencanaan perjalanan yang sederhana dan dipersonalisasi. dengan satu klik.",
+			"first-entry-title": "Apa itu ExplorAI?",
+			"fourth-entry-description": "Tentu saja, ExplorAI memungkinkan Anda menyimpan pengaturan perjalanan Anda sebagai dokumen PDF, yang dapat Anda ambil dan gunakan kapan saja tanpa memerlukan konektivitas online.",
+			"fourth-entry-title": "ExplorAI dengan cermat mengumpulkan rekomendasi yang disesuaikan dengan kebutuhan Anda dengan mempertimbangkan selera, minat, dan spesifikasi perjalanan Anda, memastikan rencana perjalanan yang dipersonalisasi hanya untuk Anda.",
+			"second-entry-description": "Memang benar, ExplorAI adalah sumber perencanaan gratis (saat ini tanpa biaya 😉)",
+			"second-entry-title": "Apakah ExplorAI menawarkan layanannya secara gratis?",
+			"sixth-entry-description": "Jika Anda memerlukan bantuan atau memiliki pertanyaan mengenai penggunaan ExplorAI, jangan ragu untuk menghubungi saya melalui email di lou.tigroudja07@gmail.com.",
+			"sixth-entry-title": "Bagaimana saya bisa mendapatkan bantuan dengan ExplorAI?",
+			"third-entry-description": "ExplorAI dengan cermat mengumpulkan rekomendasi yang disesuaikan dengan kebutuhan Anda dengan mempertimbangkan selera, minat, dan spesifikasi perjalanan Anda, memastikan rencana perjalanan yang dipersonalisasi hanya untuk Anda.",
+			"third-entry-title": "Metode apa yang digunakan ExplorAI untuk mengadaptasi rekomendasi?"
+		},
+		"button1": "Dapatkan jadwal – gratis!",
+		"cta": {
+			"button": "Rasakan sekarang",
+			"description": "Mulailah petualangan Anda yang bebas repot dengan ExplorAI, panduan gratis untuk merencanakan perjalanan Anda dengan mudah."
+		},
+		"faq": {
+			"first-entry-button": "Mulailah perjalanan Anda",
+			"first-entry-description": "Masukkan detail perjalanan Anda seperti tujuan, tanggal, anggaran dan minat. Semakin spesifik Anda, semakin AI dapat menyesuaikan rute Anda dengan preferensi Anda.",
+			"first-entry-title": "Konfigurasikan masukan/kebutuhan Anda",
+			"second-entry-button": "Bepergian di dunia",
+			"second-entry-description": "Setelah mengirimkan detail Anda, AI kami bekerja untuk membuat rencana perjalanan pribadi Anda. Ini melibatkan analisis berbagai data perjalanan untuk memastikan kecocokan terbaik untuk perjalanan Anda. Anda akan diberi tahu setelah paket pribadi Anda siap.",
+			"second-entry-title": "Tunggu hasilnya",
+			"third-entry-button": "Coba hari ini",
+			"third-entry-description": "Tinjau dan sesuaikan rencana perjalanan yang disarankan. Buat perubahan yang diperlukan untuk memenuhi kebutuhan Anda, jelajahi opsi tambahan, dan simpan rencana akhir. Bersiaplah untuk mengalami perjalanan yang khusus disesuaikan dengan kebutuhan Anda.",
+			"third-entry-title": "Jelajahi perjalanan Anda",
+			"title": "Bagaimana cara menggunakan ExplorAI?"
+		},
+		"hiking-in-nepal": "Mendaki gunung di Nepal",
+		"subtitle": "PERJALANAN BEBAS DAN BEBAS KHAWATIR",
+		"title-white": "Biarkan AI menjadi milik Anda",
+		"title-yellow": "Asisten perjalanan pribadi...",
+		"top-10-bars-in-budapest": "10 bar teratas di Budapest"
+	},
+	"navbar": {
+		"blog": "Blog",
+		"feedback": "Feedback",
+		"home": "Beranda",
+		"plan-a-trip": "Merencanakan sebuah perjalanan"
+	},
+	"planner": {
+		"beach": "Pantai",
+		"budget": "Berapa kisaran anggaran Anda?",
+		"couple": "Pasangan",
+		"culture": "Budaya",
+		"family": "Keluarga",
+		"food": "Makanan",
+		"friends": "Teman-teman",
+		"hiking": "Lintas alam",
+		"how-many-days": "Berapa hari Anda berencana untuk tinggal?",
+		"how-many-people": "Berapa banyak orang yang bepergian?",
+		"nightlife": "Dunia malam",
+		"point-of-view": "Sudut pandang",
+		"shopping": "Belanja",
+		"solo": "Solo",
+		"sports": "Olahraga",
+		"title": "Rencanakan perjalanan Anda berikutnya",
+		"well-being": "Kesejahteraan",
+		"what-activities": "Kegiatan apa yang menarik minat Anda?",
+		"when": "Kapan Anda berencana pergi ke sana?",
+		"where": "Kamu mau pergi kemana?"
+	}
+}

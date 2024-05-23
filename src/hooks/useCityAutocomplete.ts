@@ -5,14 +5,20 @@ const mapboxToken = import.meta.env.VITE_MAPBOX_ACCESS_TOKEN;
 
 export const useCityAutocomplete = (query: string) => {
     const [suggestions, setSuggestions] = useState<CitySuggestion[]>([]);
+    const [language, setLanguage] = useState<string>("fr");
+
+    useEffect(() => {
+        const userLang = navigator.language;
+        setLanguage(userLang);
+    }, []);
 
     useEffect(() => {
         if (query.length > 1) {
-            fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${query}.json?access_token=${mapboxToken}&types=place`)
+            fetch(`https://api.mapbox.com/geocoding/v5/mapbox.places/${query}.json?access_token=${mapboxToken}&language=${language}`)
                 .then(res => res.json())
                 .then(data => {
                     const cities: CitySuggestion[] = data.features.map((feature: MapboxFeature) => ({
-                        name: feature.text,
+                        name: feature.place_name,
                         coordinates: feature.center
                     }));
                     setSuggestions(cities);
@@ -21,7 +27,7 @@ export const useCityAutocomplete = (query: string) => {
         } else {
             setSuggestions([]);
         }
-    }, [query]);
+    }, [language, query]);
 
     return suggestions;
 };
