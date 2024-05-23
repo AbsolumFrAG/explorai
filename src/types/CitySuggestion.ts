@@ -4,6 +4,6 @@ export interface CitySuggestion {
 }
 
 export interface MapboxFeature {
-    text: string;
+    place_name: string;
     center: [number, number];
 }

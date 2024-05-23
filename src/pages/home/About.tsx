@@ -33,7 +33,7 @@ const About: React.FC = () => {
         {
             id: 3,
             title: "Explorez votre voyage",
-            par: "Révisez et personnalisez l’itinéraire suggéré. Apportez les modifications nécessaires pour répondre à vos besoins, explorez des options supplémentaires et enregistrez le plan final. Préparez-vous à vivre un voyage spécialement adapté à vos besoins.",
+            par: "Révisez et personnalisez l'itinéraire suggéré. Apportez les modifications nécessaires pour répondre à vos besoins, explorez des options supplémentaires et enregistrez le plan final. Préparez-vous à vivre un voyage spécialement adapté à vos besoins.",
             src: passport,
             cta: "Essayez aujourd'hui",
             alt: "Illustration d'un passeport",

@@ -120,7 +120,7 @@ const ItineraryPlanner = () => {
                 {/*Destination*/}
                 <div className="relative w-full py-8">
                     <h4 className="mb-8 text-xl font-bold">
-                        Où voudriez-vous aller?
+                        Où voudriez-vous aller ?
                         {errors.destination && (
                             <p className="error pl-2 text-lg font-normal text-red-600">
                                 <FontAwesomeIcon className="fa-rotate-90 mr-3" icon={faArrowTurnUp} />

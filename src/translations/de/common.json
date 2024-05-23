@@ -1,0 +1,86 @@
+{
+	"account": {
+		"account": "Konto :",
+		"account-settings": "Account Einstellungen",
+		"actual-subscription": "Aktuelles Abonnement:",
+		"day-in": "Tag in",
+		"days-in": "Tage in",
+		"free-service": "(Derzeit sind unsere Dienste für alle kostenlos)",
+		"guide-support": "Anleitungen und Support",
+		"help": "Helfen",
+		"history": "Historisch",
+		"previous-itineraries": "Vorherige Reiserouten",
+		"subscription": "Abonnement"
+	},
+	"footer": {
+		"contact": "Kontakt",
+		"privacy-policy": "Datenschutzrichtlinie",
+		"terms-of-use": "Nutzungsbedingungen"
+	},
+	"home": {
+		"accordion": {
+			"fifth-entry-description": "Mit ExplorAI können Sie Ihren Reiseplan flexibel bearbeiten und haben die Freiheit, Reiseziele zu verschieben, ein- oder auszuschließen, um eine Reiseroute zu erstellen, die Ihrem persönlichen Geschmack und Zeitplan entspricht.",
+			"fifth-entry-title": "Wie ändere ich meine Reisepläne mit ExplorAI?",
+			"first-entry-description": "Stellen Sie sich einen engagierten Reiseberater vor, der jederzeit über Ihr Mobilgerät leicht erreichbar ist. ExplorAI bietet Ihnen genau das: eine intuitive Plattform, mit der Sie Ihre Reise mühelos organisieren und maßgeschneiderte Reisepläne kostenlos bereitstellen können. Entdecken Sie den Komfort einer einfachen, personalisierten Reiseplanung. mit einem einzigen Klick.",
+			"first-entry-title": "Was ist ExplorAI?",
+			"fourth-entry-description": "Absolut, mit ExplorAI können Sie Ihre Reisevorbereitungen als PDF-Dokument speichern, das Sie jederzeit abrufen und verwenden können, ohne dass eine Online-Verbindung erforderlich ist.",
+			"fourth-entry-title": "ExplorAI sammelt sorgfältig auf Ihre Bedürfnisse zugeschnittene Empfehlungen und berücksichtigt dabei Ihren Geschmack, Ihre Interessen und Reisespezifikationen, um einen personalisierten Reiseplan speziell für Sie zu gewährleisten.",
+			"second-entry-description": "Tatsächlich ist ExplorAI eine kostenlose Planungsressource (derzeit kostenlos 😉)",
+			"second-entry-title": "Bietet ExplorAI seine Dienste kostenlos an?",
+			"sixth-entry-description": "Wenn Sie Hilfe benötigen oder Fragen zur Verwendung von ExplorAI haben, zögern Sie bitte nicht, mich per E-Mail unter lou.tigroudja07@gmail.com zu kontaktieren.",
+			"sixth-entry-title": "Wie kann ich Hilfe zu ExplorAI erhalten?",
+			"third-entry-description": "ExplorAI sammelt sorgfältig auf Ihre Bedürfnisse zugeschnittene Empfehlungen und berücksichtigt dabei Ihren Geschmack, Ihre Interessen und Reisespezifikationen, um einen personalisierten Reiseplan speziell für Sie zu gewährleisten.",
+			"third-entry-title": "Welche Methode verwendet ExplorAI, um Empfehlungen anzupassen?"
+		},
+		"button1": "Holen Sie sich einen Zeitplan – es ist kostenlos!",
+		"cta": {
+			"button": "Erleben Sie es jetzt",
+			"description": "Beginnen Sie Ihr stressfreies Abenteuer mit ExplorAI, Ihrem kostenlosen Leitfaden für die mühelose Planung Ihrer Reise."
+		},
+		"faq": {
+			"first-entry-button": "Beginnen Sie Ihre Reise",
+			"first-entry-description": "Geben Sie Ihre Reisedetails wie Ziel, Daten, Budget und Interessen ein. Je spezifischer Sie sind, desto besser kann die KI Ihre Route an Ihre Vorlieben anpassen.",
+			"first-entry-title": "Konfigurieren Sie Ihre Eingaben/Bedürfnisse",
+			"second-entry-button": "Reisen Sie in der Welt",
+			"second-entry-description": "Nach der Übermittlung Ihrer Daten arbeitet unsere KI daran, Ihre personalisierte Reiseroute zu erstellen. Dabei werden zahlreiche Reisedaten analysiert, um die beste Übereinstimmung für Ihre Reise sicherzustellen. Sie werden benachrichtigt, sobald Ihr personalisierter Plan fertig ist.",
+			"second-entry-title": "Warten Sie auf die Ergebnisse",
+			"third-entry-button": "Versuchen Sie es noch heute",
+			"third-entry-description": "Überprüfen Sie die vorgeschlagene Reiseroute und passen Sie sie an. Nehmen Sie die notwendigen Änderungen vor, um Ihren Anforderungen gerecht zu werden, prüfen Sie zusätzliche Optionen und speichern Sie den endgültigen Plan. Bereiten Sie sich auf eine Reise vor, die speziell auf Ihre Bedürfnisse zugeschnitten ist.",
+			"third-entry-title": "Entdecken Sie Ihre Reise",
+			"title": "Wie verwende ich ExplorAI?"
+		},
+		"hiking-in-nepal": "Wandern in Nepal",
+		"subtitle": "Reisen Sie problemlos und sorgenfrei",
+		"title-white": "Lassen Sie KI Ihr sein",
+		"title-yellow": "Persönlicher Reiseassistent...",
+		"top-10-bars-in-budapest": "Top 10 Bars in Budapest"
+	},
+	"navbar": {
+		"blog": "Blog",
+		"feedback": "Feedback",
+		"home": "Startseite",
+		"plan-a-trip": "Einen Ausflug planen"
+	},
+	"planner": {
+		"beach": "Strände",
+		"budget": "Wie hoch ist Ihr Budget?",
+		"couple": "Paar",
+		"culture": "Kultur",
+		"family": "Familie",
+		"food": "Essen",
+		"friends": "Freunde",
+		"hiking": "Wandern",
+		"how-many-days": "Wie viele Tage planen Sie zu bleiben?",
+		"how-many-people": "Wie viele Personen sind unterwegs?",
+		"nightlife": "Nachtleben",
+		"point-of-view": "Standpunkt",
+		"shopping": "Einkaufen",
+		"solo": "Solo",
+		"sports": "Sport",
+		"title": "Planen Sie Ihre nächste Reise",
+		"well-being": "Wohlbefinden",
+		"what-activities": "Welche Aktivitäten interessieren Sie?",
+		"when": "Wann planen Sie dorthin zu fahren?",
+		"where": "Wo würdest du gerne hingehen?"
+	}
+}

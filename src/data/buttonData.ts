@@ -30,20 +30,20 @@ const activities = [
 const budgetOptions = [
     {
         label: "Budget",
-        value: "moins de 1000€",
-        range: "0 - 1000 EUR",
+        value: "moins de 1000$",
+        range: "0 - 1000 USD",
         icon: faCreditCard,
     },
     {
-        label: "Moyen",
-        value: "entre 1000 and 2500€",
-        range: "1000 - 2500 EUR",
+        label: "Medium",
+        value: "entre 1000 et 2500$",
+        range: "1000 - 2500 USD",
         icon: faCreditCard,
     },
     {
         label: "Luxe",
         value: "au-dessus de 2500$",
-        range: "2500+ EUR",
+        range: "2500+ USD",
         icon: faCreditCard,
     },
 ];
