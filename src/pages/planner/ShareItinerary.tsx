@@ -8,6 +8,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useState } from "react";
 import { ItineraryResponseType } from "../../types/ResponseTypes";
 import { createSharedItinerary } from "../../utils/firestoreFunctions";
+import { UserAuth } from "../../context/AuthContext";
 
 interface ShareItineraryProps {
   itinerary: ItineraryResponseType;
@@ -17,15 +18,23 @@ const ShareItinerary: React.FC<ShareItineraryProps> = ({ itinerary }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [copied, setCopied] = useState(false);
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const { user } = UserAuth();
 
   const generateShareUrl = async () => {
     try {
+      if (!user) {
+        throw new Error("Vous devez être connecté pour partager un itinéraire.");
+      }
+
       setLoading(true);
-      const shareId = await createSharedItinerary(itinerary);
+      setError(null);
+      const shareId = await createSharedItinerary(itinerary, user.uid);
       const baseUrl = window.location.origin;
       return `${baseUrl}/planner/shared/${shareId}`;
     } catch (error) {
       console.error("Erreur lors de la création du lien de partage:", error);
+      setError(error instanceof Error ? error.message : "Une erreur est survenue.");
       throw error;
     } finally {
       setLoading(false);
@@ -46,8 +55,11 @@ const ShareItinerary: React.FC<ShareItineraryProps> = ({ itinerary }) => {
       } else {
         setIsModalOpen(true);
       }
-    } catch (error) {
+    } catch (error: any) {
       console.error("Erreur lors du partage:", error);
+      if (!error.messages?.includes("aborted")) {
+        setError("Une erreur est survenue lors du partage.");
+      }
     }
   };
 
@@ -94,6 +106,12 @@ const ShareItinerary: React.FC<ShareItineraryProps> = ({ itinerary }) => {
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
           <div className="w-full max-w-md rounded-lg bg-white p-6 shadow-xl">
             <h3 className="mb-4 text-xl font-bold">Partager l'itinéraire</h3>
+
+            {error && (
+              <div className="mb-4 rounded-lg bg-red-100 p-3 text-red-700">
+                {error}
+              </div>
+            )}
 
             <div className="space-y-4">
               <button

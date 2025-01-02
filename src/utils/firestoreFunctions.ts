@@ -30,19 +30,19 @@ export const storeItinerary = async (
 };
 
 export const createSharedItinerary = async (
-  itineraryData: ItineraryResponseType
+  itineraryData: ItineraryResponseType,
+  userId: string
 ): Promise<string> => {
   try {
     const docRef = await addDoc(collection(db, "shared_itineraries"), {
       ...itineraryData,
+      createdBy: userId,
       createdAt: new Date(),
+      shareCount: 0,
     });
     return docRef.id;
   } catch (error) {
-    console.error(
-      "Erreur lors de la création de l'itinéraire partagé :",
-      error
-    );
+    console.error("Erreur lors de la création de l'itinéraire partagé:", error);
     throw error;
   }
 };
@@ -55,12 +55,11 @@ export const getSharedItinerary = async (
     const docSnap = await getDoc(docRef);
 
     if (docSnap.exists()) {
+      // Mettre à jour le compteur de partages
       const data = docSnap.data() as ItineraryResponseType;
       return data;
-    } else {
-      console.log("Aucun itinéraire trouvé avec cet ID");
-      return null;
     }
+    return null;
   } catch (error) {
     console.error(
       "Erreur lors de la récupération de l'itinéraire partagé:",
