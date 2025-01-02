@@ -93,7 +93,7 @@ export const generateItinerary = async (data: {
     const response = await axios.post(
       "https://api.openai.com/v1/chat/completions",
       {
-        model: "gpt-4o",
+        model: "chatgpt-4o-latest",
         messages: [
           {
             role: "system",
@@ -102,7 +102,7 @@ export const generateItinerary = async (data: {
           { role: "user", content: prompt },
         ],
         response_format: { type: "json_object" },
-        max_tokens: 4096,
+        max_tokens: 16384,
       },
       {
         headers: {
@@ -111,7 +111,6 @@ export const generateItinerary = async (data: {
         },
       }
     );
-    console.log(response.data.choices[0].message.content);
 
     const contentString = response.data.choices[0].message.content;
 

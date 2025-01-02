@@ -5,22 +5,27 @@ import { Navigate } from "react-router-dom";
 import { UserAuth } from "../../context/AuthContext";
 import { ProtectedRouteProps } from "../../types/ProtectedRouteProps";
 
-const NoUserProtectedRoute: React.FC<ProtectedRouteProps> = ({ component: Component }) => {
-    const { user, loading } = UserAuth();
+const NoUserProtectedRoute: React.FC<ProtectedRouteProps> = ({
+  component: Component,
+}) => {
+  const { user, loading } = UserAuth();
 
-    if (loading) {
-        return (
-            <div className="grid h-screen w-screen place-content-center">
-                <FontAwesomeIcon className="animate-spin text-6xl text-gray-800" icon={faSpinner} />
-            </div>
-        );
-    }
+  if (loading) {
+    return (
+      <div className="grid h-screen w-screen place-content-center">
+        <FontAwesomeIcon
+          className="animate-spin text-6xl text-gray-800"
+          icon={faSpinner}
+        />
+      </div>
+    );
+  }
 
-    if (!user) {
-        return <Navigate to="/sign" replace />;
-    }
+  if (!user) {
+    return <Navigate to="/sign" replace />;
+  }
 
-    return <Component />;
+  return <Component />;
 };
 
 export default NoUserProtectedRoute;

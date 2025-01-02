@@ -1,9 +1,13 @@
+import { Dispatch, SetStateAction } from "react";
+
 export type OverviewProps = {
-    setState: React.Dispatch<React.SetStateAction<boolean>>;
-    info: DestinationInfo;
+  setState: Dispatch<SetStateAction<boolean>>;
+  info: DestinationInfo;
 };
 
-type DestinationInfo = {
-    shortDescription: string;
-    shortHistory: string;
+export type DestinationInfo = {
+  shortDescription: string;
+  shortHistory: string;
+  destinationCity: string;
+  startDate: string;
 };

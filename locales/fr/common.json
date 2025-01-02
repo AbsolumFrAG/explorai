@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "plan-a-trip": "Planifier un voyage",
+    "blog": "Blog",
+    "feedback": "Feedback"
+  },
+  "planner": {
+    "title": "Planifiez votre prochain voyage",
+    "where": "Où voudriez-vous aller ?",
+    "when": "Quand comptez-vous y aller ?",
+    "how-many-days": "Combien de jours comptez-vous rester ?",
+    "how-many-people": "Combien de personnes voyagent ?",
+    "budget": "Quelle est votre fourchette budgétaire ?",
+    "what-activities": "Quelles activités vous intéressent ?",
+    "solo": "Solo",
+    "couple": "Couple",
+    "family": "Famille",
+    "friends": "Amis",
+    "culture": "Culture",
+    "food": "Nourriture",
+    "nightlife": "Vie nocturne",
+    "beach": "Plages",
+    "hiking": "Randonnées",
+    "shopping": "Shopping",
+    "sports": "Sports",
+    "well-being": "Bien-être",
+    "point-of-view": "Point de vue"
+  },
+  "home": {
+    "title-white": "Laissez l'IA être votre",
+    "title-yellow": "Assistant de voyage personnel...",
+    "subtitle": "VOYAGEZ SANS TRACAS ET SANS SOUCIS",
+    "button1": "Obtenez un planning - c'est gratuit !",
+    "hiking-in-nepal": "Randonnées au Népal",
+    "top-10-bars-in-budapest": "Top 10 bars dans Budapest",
+    "cta": {
+      "description": "Commencez votre aventure sans tracas avec ExplorAI, votre guide gratuit pour planifier votre voyage sans effort.",
+      "button": "Faites-en l'expérience maintenant"
+    },
+    "faq": {
+      "title": "Comment utiliser ExplorAI ?",
+      "first-entry-title": "Configurez vos entrées/besoins",
+      "first-entry-description": "Saisissez les détails de votre voyage tels que la destination, les dates, le budget et les intérêts. Plus vous êtes précis, plus l'IA peut adapter votre itinéraire à vos préférences.",
+      "first-entry-button": "Commencez votre voyage",
+      "second-entry-title": "Attendez les résultats",
+      "second-entry-description": "Après avoir soumis vos coordonnées, notre IA travaille pour créer votre itinéraire personnalisé. Cela implique d'analyser un large éventail de données de voyage pour garantir la meilleure correspondance pour votre voyage. Vous serez averti une fois que votre plan personnalisé sera prêt.",
+      "second-entry-button": "Voyager à travers le monde",
+      "third-entry-title": "Explorez votre voyage",
+      "third-entry-description": "Révisez et personnalisez l’itinéraire suggéré. Apportez les modifications nécessaires pour répondre à vos besoins, explorez des options supplémentaires et enregistrez le plan final. Préparez-vous à vivre un voyage spécialement adapté à vos besoins.",
+      "third-entry-button": "Essayez aujourd'hui",
+      "fourth-entry-title": "Est-il possible d'utiliser ExplorAI sans connexion Internet ?",
+      "fourth-entry-description": "Absolument, ExplorAI vous permet de sauvegarder vos préparatifs de voyage sous forme de document PDF, que vous pouvez récupérer et utiliser à tout moment sans avoir besoin de connectivité en ligne.",
+      "fifth-entry-title": "Comment puis-je modifier mes projets de voyage avec ExplorAI ?",
+      "fifth-entry-description": "ExplorAI vous permet de modifier de manière flexible votre agenda de voyage, vous donnant la liberté de déplacer, d'inclure ou d'exclure des destinations pour créer un itinéraire de voyage qui correspond à vos goûts personnels et à votre emploi du temps.",
+      "sixth-entry-title": "Comment puis-je obtenir de l'aide avec ExplorAI ?",
+      "sixth-entry-description": "Si vous avez besoin d'aide ou si vous avez des questions concernant l'utilisation de ExplorAI, n'hésitez pas à me contacter par e-mail à lou.tigroudja07@gmail.com."
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "privacy-policy": "Politique de confidentialité",
+    "terms-of-use": "Conditions d'utilisation"
+  },
+  "account": {
+    "account": "Compte :",
+    "account-settings": "Paramètres du compte",
+    "actual-subscription": "Abonnement actuel :",
+    "day-in": "Jour à",
+    "days-in": "Jours à",
+    "free-service": "(Actuellement, nos services sont gratuits pour tous)",
+    "guide-support": "Guides & Support",
+    "help": "Aide",
+    "history": "Historique",
+    "previous-itineraries": "Itinéraires précédents",
+    "subscription": "Abonnement"
+  },
+  "language-selector": {
+    "label": "Choisissez la langue :",
+    "languages": {
+      "fr": "Français",
+      "en": "English",
+      "vi": "Tiếng Việt",
+      "de": "Deutsch",
+      "es": "Español",
+      "pt": "Português"
+    }
+  }
+}
