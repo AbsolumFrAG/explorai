@@ -1,4 +1,4 @@
-import React from "react";
+import { FC } from "react";
 import { Route, Routes } from "react-router-dom";
 import NoUserProtectedRoute from "./components/protected-routes/ProtectedRoute";
 import UserProtectedRoute from "./components/protected-routes/UserProtectedRoute";
@@ -15,7 +15,7 @@ import Home from "./pages/home/index";
 import Planner from "./pages/planner/index";
 import SharedItinerary from "./pages/planner/SharedItinerary";
 
-const App: React.FC = () => {
+const App: FC = () => {
   return (
     <div className="App">
       <ItineraryProvider>

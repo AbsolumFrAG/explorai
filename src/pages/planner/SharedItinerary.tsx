@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from "react";
+import { FC, useEffect, useState } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import Loading from "../../components/ui/Loading";
 import { useItinerary } from "../../context/ItineraryContext";
 import { getSharedItinerary } from "../../utils/firestoreFunctions";
 
-const SharedItinerary: React.FC = () => {
+const SharedItinerary: FC = () => {
   const { shareId } = useParams<{ shareId: string }>();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
