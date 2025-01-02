@@ -7,6 +7,7 @@ const LanguageSelector = () => {
 
   const changeLanguage = (lng: string) => {
     i18n.changeLanguage(lng);
+    setIsOpen(false);
   };
 
   return (

@@ -5,15 +5,15 @@ import CtaSection from "./CtaSection";
 import Hero from "./Hero";
 
 const Home = () => {
-    return (
-        <>
-            <Hero />
-            <About />
-            <CtaSection />
-            <Accordion />
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <About />
+      <CtaSection />
+      <Accordion />
+      <Footer />
+    </>
+  );
 };
 
 export default Home;

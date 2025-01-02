@@ -11,7 +11,7 @@
     "when": "Wann möchtest du los?",
     "how-many-days": "Wie viele Tage möchtest du bleiben?",
     "how-many-people": "Wie viele Personen reisen?",
-    "budget": "Wie ist dein Budgetrahmen?",
+    "budget-span": "Wie ist dein Budgetrahmen?",
     "what-activities": "Welche Aktivitäten interessieren dich?",
     "solo": "Allein",
     "couple": "Paar",
@@ -25,7 +25,12 @@
     "shopping": "Shopping",
     "sports": "Sport",
     "well-being": "Wellness",
-    "point-of-view": "Aussichtspunkt"
+    "point-of-view": "Aussichtspunkt",
+    "budget": {
+      "low": "Runter",
+      "medium": "Durchschnitt",
+      "high": "Hoch"
+    }
   },
   "home": {
     "title-white": "Lass KI dein",
@@ -34,6 +39,9 @@
     "button1": "Hole dir einen Plan - es ist kostenlos!",
     "hiking-in-nepal": "Wandern in Nepal",
     "top-10-bars-in-budapest": "Top 10 Bars in Budapest",
+    "best-clubs-in-berlin": "Die besten Clubs in Berlin",
+    "find-local-food": "Wo findet man lokales Essen?",
+    "car-rental-rome": "Autovermietung in Rom",
     "cta": {
       "description": "Beginne dein stressfreies Abenteuer mit ExplorAI, deinem kostenlosen Reiseplanungshelfer.",
       "button": "Jetzt erleben"

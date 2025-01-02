@@ -6,9 +6,9 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { ChangeEvent, useReducer, useState } from "react";
 import {
-  activities,
-  budgetOptions,
-  groupOptions,
+  getActivities,
+  getBudgetOptions,
+  getGroupOptions,
 } from "../../data/buttonData.ts";
 import { useCityAutocomplete } from "../../hooks/useCityAutocomplete.ts";
 import { useInputChange } from "../../hooks/useInputChange.ts";
@@ -17,6 +17,7 @@ import { useResetForm } from "../../hooks/useResetForm.ts";
 import { useSubmitItinerary } from "../../hooks/useSubmitItinerary.ts";
 import { ErrorObject } from "../../types/ErrorObject.ts";
 import { FormState, ItineraryAction } from "../../types/ItineraryTypes.ts";
+import { useTranslation } from "react-i18next";
 
 const initialState: FormState = {
   destination: "",
@@ -57,6 +58,7 @@ const itineraryReducer = (
 };
 
 const ItineraryPlanner = () => {
+  const { t } = useTranslation();
   const [state, dispatch] = useReducer(itineraryReducer, initialState);
   const { errors, validate, setErrors } = useItineraryFormValidation();
   const [cityQuery, setCityQuery] = useState("");
@@ -139,12 +141,12 @@ const ItineraryPlanner = () => {
         onSubmit={handleSubmit}
         className="grid place-items-center space-y-4 border-gray-500 border-opacity-20 bg-white p-8 px-8 shadow-2xl sm:border md:rounded-2xl"
       >
-        <h2 className="text-3xl font-bold">Planifiez votre prochain voyage</h2>
+        <h2 className="text-3xl font-bold">{t("planner.title")}</h2>
 
         {/*Destination*/}
         <div className="relative w-full py-8">
           <h4 className="mb-8 text-xl font-bold">
-            Où voudriez-vous aller ?
+            {t("planner.where")}
             {errors.destination && (
               <p className="error pl-2 text-lg font-normal text-red-600">
                 <FontAwesomeIcon
@@ -164,7 +166,7 @@ const ItineraryPlanner = () => {
             onFocus={handleFocus}
             onBlur={handleBlur}
             onChange={handleCityChange}
-            placeholder="Entrez un emplacement"
+            placeholder={t("planner.enter-location")}
             className={`${errors.destination ? "border-red-500" : "border-gray-300"} placeholder:font-base mt-2 h-12 w-full rounded-xl border bg-gray-50 px-4 py-2 backdrop-blur-lg placeholder:text-gray-400 focus-within:outline-none`}
           />
           {showSuggestions && (
@@ -185,7 +187,7 @@ const ItineraryPlanner = () => {
         {/*Date */}
         <div className="w-full border-t border-t-gray-300 py-8">
           <h4 className="mb-8 text-xl font-bold">
-            Quand comptez-vous y aller ?
+            {t("planner.when")}
             {errors.date && (
               <p className="error pl-2 text-lg font-normal text-red-600">
                 <FontAwesomeIcon
@@ -204,7 +206,7 @@ const ItineraryPlanner = () => {
             max="2099-12-31"
             value={state.date}
             onChange={handleInputChange("date")}
-            placeholder="Entrez un emplacement"
+            placeholder="Entrez une date"
             className={`${errors.destination ? "border-red-500" : "border-gray-300"} placeholder:font-base mt-2 h-12 w-full rounded-xl border bg-gray-50  px-4 py-2 backdrop-blur-lg  placeholder:text-gray-400 focus-within:outline-none`}
           />
         </div>
@@ -212,8 +214,12 @@ const ItineraryPlanner = () => {
         {/*Length*/}
         <div className="w-full border-t border-t-gray-300 py-8">
           <h4 className="mb-8 text-xl font-bold">
-            Combien de jours comptez-vous rester ? {state.length}{" "}
-            {state.length ? (state.length == "1" ? "jour" : "jours") : ""}
+            {t("planner.how-many-days")} {state.length}{" "}
+            {state.length
+              ? parseInt(state.length) === 1
+                ? t("planner.day")
+                : t("planner.days")
+              : ""}
             {errors.length && (
               <p className="error pl-2 text-lg font-normal text-red-600">
                 <FontAwesomeIcon
@@ -239,7 +245,7 @@ const ItineraryPlanner = () => {
         {/*Group Size*/}
         <div className="w-full border-t border-t-gray-300 py-8">
           <h4 className="mb-8 text-xl font-bold">
-            Combien de personnes voyagent ?
+            {t("planner.how-many-people")}
             {errors.group && (
               <p className="error pl-2 text-lg font-normal text-red-600">
                 <FontAwesomeIcon
@@ -251,7 +257,7 @@ const ItineraryPlanner = () => {
             )}
           </h4>
           <div className="grid grid-cols-2 grid-rows-2 gap-4 sm:grid-cols-3">
-            {groupOptions.map((group) => (
+            {getGroupOptions(t).map((group) => (
               <button
                 key={group.value}
                 type="button"
@@ -271,7 +277,7 @@ const ItineraryPlanner = () => {
         {/*Budget Section*/}
         <div className="w-full border-t border-t-gray-300 py-8">
           <h4 className="mb-8 text-xl font-bold">
-            Quelle est votre fourchette budgétaire ?{" "}
+            {t("planner.budget-span")}{" "}
             {errors.budget && (
               <p className="error pl-2 text-lg font-normal text-red-600">
                 <FontAwesomeIcon
@@ -283,7 +289,7 @@ const ItineraryPlanner = () => {
             )}
           </h4>
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
-            {budgetOptions.map((budget) => (
+            {getBudgetOptions(t).map((budget) => (
               <button
                 key={budget.value}
                 type="button"
@@ -313,7 +319,7 @@ const ItineraryPlanner = () => {
         {/*Activities Section*/}
         <div className="w-full border-t border-t-gray-300 py-8">
           <h4 className="mb-8 text-xl font-bold">
-            Quelles activités vous intéressent ?
+            {t("planner.what-activities")}
             {errors.activity && (
               <p className="error pl-2 text-lg font-normal text-red-600">
                 <FontAwesomeIcon
@@ -325,7 +331,7 @@ const ItineraryPlanner = () => {
             )}
           </h4>
           <div className="grid grid-cols-2 grid-rows-3 gap-4 sm:grid-cols-3">
-            {activities.map((activity) => (
+            {getActivities(t).map((activity) => (
               <button
                 key={activity.value}
                 type="button"
@@ -359,10 +365,8 @@ const ItineraryPlanner = () => {
               className="mr-2 text-xl"
               icon={faCircleExclamation}
             />
-            Entrée invalide :{" "}
-            <span className="font-normal">
-              Il manque une entrée dans un ou plusieurs champs
-            </span>
+            {t("planner.invalid-input")}{" "}
+            <span className="font-normal">{t("planner.missing-fields")}</span>
           </p>
         </div>
 
@@ -372,16 +376,16 @@ const ItineraryPlanner = () => {
               className="flex h-12 w-12 items-center justify-center rounded-lg border border-gray-300 px-4 py-2 text-lg font-semibold text-gray-400 shadow-md"
               type="button"
               onClick={handleReset}
-              value="Réinitialiser"
+              value={t("planner.reset")}
             >
               <FontAwesomeIcon icon={faArrowRotateLeft} />
             </button>
             <button
               className="rounded-lg border border-blue-600 bg-blue-500 px-4 py-2 text-lg font-semibold text-white shadow-md"
               type="submit"
-              value="Soumettre"
+              value={t("planner.submit")}
             >
-              Obtenir l'itinéraire
+              {t("planner.get-itinerary")}
             </button>
           </div>
         </div>

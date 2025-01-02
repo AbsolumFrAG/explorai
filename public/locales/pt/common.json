@@ -11,7 +11,7 @@
     "when": "Quando você planeja ir?",
     "how-many-days": "Quantos dias você planeja ficar?",
     "how-many-people": "Quantas pessoas estão viajando?",
-    "budget": "Qual é sua faixa de orçamento?",
+    "budget-span": "Qual é sua faixa de orçamento?",
     "what-activities": "Quais atividades te interessam?",
     "solo": "Sozinho",
     "couple": "Casal",
@@ -25,7 +25,12 @@
     "shopping": "Compras",
     "sports": "Esportes",
     "well-being": "Bem-estar",
-    "point-of-view": "Ponto de vista"
+    "point-of-view": "Ponto de vista",
+    "budget": {
+      "low": "Abaixo",
+      "medium": "Média",
+      "high": "Alto"
+    }
   },
   "home": {
     "title-white": "Deixe a IA ser seu",
@@ -34,6 +39,9 @@
     "button1": "Obtenha um plano - é grátis!",
     "hiking-in-nepal": "Caminhada no Nepal",
     "top-10-bars-in-budapest": "Top 10 bares em Budapeste",
+    "best-clubs-in-berlin": "Melhores clubes em Berlim",
+    "find-local-food": "Onde encontrar comida local?",
+    "car-rental-rome": "Aluguel de carro em Roma",
     "cta": {
       "description": "Comece sua aventura sem complicações com ExplorAI, seu guia gratuito para planejar viagens sem esforço.",
       "button": "Experimente agora"

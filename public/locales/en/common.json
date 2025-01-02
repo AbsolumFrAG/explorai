@@ -11,7 +11,7 @@
     "when": "When are you planning to go?",
     "how-many-days": "How many days do you plan to stay?",
     "how-many-people": "How many people are traveling?",
-    "budget": "What is your budget range?",
+    "budget-span": "What is your budget range?",
     "what-activities": "What activities interest you?",
     "solo": "Solo",
     "couple": "Couple",
@@ -25,7 +25,12 @@
     "shopping": "Shopping",
     "sports": "Sports",
     "well-being": "Well-being",
-    "point-of-view": "Point of view"
+    "point-of-view": "Point of view",
+    "budget": {
+      "low": "Low",
+      "medium": "Medium",
+      "high": "High"
+    }
   },
   "home": {
     "title-white": "Let AI be your",
@@ -34,6 +39,9 @@
     "button1": "Get a plan - it's free!",
     "hiking-in-nepal": "Hiking in Nepal",
     "top-10-bars-in-budapest": "Top 10 bars in Budapest",
+    "best-clubs-in-berlin": "Best clubs in Berlin",
+    "find-local-food": "Where to find local food?",
+    "car-rental-rome": "Car rental in Rome",
     "cta": {
       "description": "Start your hassle-free adventure with ExplorAI, your free guide to effortless trip planning.",
       "button": "Experience it now"

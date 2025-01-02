@@ -11,7 +11,7 @@
     "when": "Khi nào bạn định đi?",
     "how-many-days": "Bạn định ở lại bao nhiêu ngày?",
     "how-many-people": "Có bao nhiêu người đi?",
-    "budget": "Ngân sách của bạn là bao nhiêu?",
+    "budget-span": "Ngân sách của bạn là bao nhiêu?",
     "what-activities": "Bạn quan tâm đến hoạt động nào?",
     "solo": "Một mình",
     "couple": "Cặp đôi",
@@ -25,7 +25,12 @@
     "shopping": "Mua sắm",
     "sports": "Thể thao",
     "well-being": "Sức khỏe",
-    "point-of-view": "Điểm ngắm cảnh"
+    "point-of-view": "Điểm ngắm cảnh",
+    "budget": {
+      "low": "Xuống",
+      "medium": "Trung bình",
+      "high": "Cao"
+    }
   },
   "home": {
     "title-white": "Để AI trở thành",
@@ -34,6 +39,9 @@
     "button1": "Nhận lịch trình - hoàn toàn miễn phí!",
     "hiking-in-nepal": "Leo núi ở Nepal",
     "top-10-bars-in-budapest": "10 quán bar hàng đầu ở Budapest",
+    "best-clubs-in-berlin": "Các câu lạc bộ tốt nhất ở Berlin",
+    "find-local-food": "Tìm đồ ăn địa phương ở đâu?",
+    "car-rental-rome": "Thuê xe ở Rome",
     "cta": {
       "description": "Bắt đầu cuộc phiêu lưu của bạn một cách dễ dàng với ExplorAI, hướng dẫn viên miễn phí giúp bạn lập kế hoạch chuyến đi không mệt mỏi.",
       "button": "Trải nghiệm ngay"
