@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "home": "Início",
+    "plan-a-trip": "Planejar viagem",
+    "blog": "Blog",
+    "feedback": "Feedback"
+  },
+  "planner": {
+    "title": "Planeje sua próxima viagem",
+    "where": "Para onde você gostaria de ir?",
+    "when": "Quando você planeja ir?",
+    "how-many-days": "Quantos dias você planeja ficar?",
+    "how-many-people": "Quantas pessoas estão viajando?",
+    "budget": "Qual é sua faixa de orçamento?",
+    "what-activities": "Quais atividades te interessam?",
+    "solo": "Sozinho",
+    "couple": "Casal",
+    "family": "Família",
+    "friends": "Amigos",
+    "culture": "Cultura",
+    "food": "Comida",
+    "nightlife": "Vida noturna",
+    "beach": "Praias",
+    "hiking": "Caminhada",
+    "shopping": "Compras",
+    "sports": "Esportes",
+    "well-being": "Bem-estar",
+    "point-of-view": "Ponto de vista"
+  },
+  "home": {
+    "title-white": "Deixe a IA ser seu",
+    "title-yellow": "Assistente Pessoal de Viagem...",
+    "subtitle": "VIAJE SEM COMPLICAÇÕES E PREOCUPAÇÕES",
+    "button1": "Obtenha um plano - é grátis!",
+    "hiking-in-nepal": "Caminhada no Nepal",
+    "top-10-bars-in-budapest": "Top 10 bares em Budapeste",
+    "cta": {
+      "description": "Comece sua aventura sem complicações com ExplorAI, seu guia gratuito para planejar viagens sem esforço.",
+      "button": "Experimente agora"
+    },
+    "faq": {
+      "title": "Como usar o ExplorAI?",
+      "first-entry-title": "Configure suas entradas/necessidades",
+      "first-entry-description": "Insira os detalhes da sua viagem como destino, datas, orçamento e interesses. Quanto mais específico você for, melhor a IA poderá adaptar seu itinerário às suas preferências.",
+      "first-entry-button": "Comece sua viagem",
+      "second-entry-title": "Aguarde os resultados",
+      "second-entry-description": "Depois de enviar seus detalhes, nossa IA trabalha para criar seu itinerário personalizado. Isso envolve analisar uma ampla gama de dados de viagem para garantir a melhor correspondência para sua viagem. Você será notificado quando seu plano personalizado estiver pronto.",
+      "second-entry-button": "Viaje pelo mundo",
+      "third-entry-title": "Explore sua viagem",
+      "third-entry-description": "Revise e personalize o itinerário sugerido. Faça as alterações necessárias para atender às suas necessidades, explore opções adicionais e salve o plano final. Prepare-se para experimentar uma viagem especialmente adaptada às suas necessidades.",
+      "third-entry-button": "Experimente hoje",
+      "fourth-entry-title": "Posso usar o ExplorAI sem conexão com a Internet?",
+      "fourth-entry-description": "Absolutamente, o ExplorAI permite que você salve seus preparativos de viagem como documento PDF, que você pode recuperar e usar a qualquer momento sem necessidade de conectividade à internet.",
+      "fifth-entry-title": "Como posso modificar meus planos de viagem com o ExplorAI?",
+      "fifth-entry-description": "O ExplorAI permite que você modifique flexivamente seu cronograma de viagem, dando-lhe a liberdade de mover, incluir ou excluir destinos para criar um itinerário de viagem que corresponda aos seus gostos pessoais e agenda.",
+      "sixth-entry-title": "Como posso obter ajuda com o ExplorAI?",
+      "sixth-entry-description": "Se você precisar de ajuda ou tiver dúvidas sobre o uso do ExplorAI, não hesite em me contatar por e-mail em lou.tigroudja07@gmail.com."
+    }
+  },
+  "footer": {
+    "contact": "Contato",
+    "privacy-policy": "Política de Privacidade",
+    "terms-of-use": "Termos de Uso"
+  },
+  "account": {
+    "account": "Conta:",
+    "account-settings": "Configurações da conta",
+    "actual-subscription": "Assinatura atual:",
+    "day-in": "Dia em",
+    "days-in": "Dias em",
+    "free-service": "(Atualmente, nossos serviços são gratuitos para todos)",
+    "guide-support": "Guias e suporte",
+    "help": "Ajuda",
+    "history": "Histórico",
+    "previous-itineraries": "Itinerários anteriores",
+    "subscription": "Assinatura"
+  },
+  "language-selector": {
+    "label": "Escolher idioma:",
+    "languages": {
+      "fr": "Français",
+      "en": "English",
+      "vi": "Tiếng Việt",
+      "de": "Deutsch",
+      "es": "Español",
+      "pt": "Português"
+    }
+  }
+}

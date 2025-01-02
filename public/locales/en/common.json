@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "home": "Home",
+    "plan-a-trip": "Plan a trip",
+    "blog": "Blog",
+    "feedback": "Feedback"
+  },
+  "planner": {
+    "title": "Plan your next trip",
+    "where": "Where would you like to go?",
+    "when": "When are you planning to go?",
+    "how-many-days": "How many days do you plan to stay?",
+    "how-many-people": "How many people are traveling?",
+    "budget": "What is your budget range?",
+    "what-activities": "What activities interest you?",
+    "solo": "Solo",
+    "couple": "Couple",
+    "family": "Family",
+    "friends": "Friends",
+    "culture": "Culture",
+    "food": "Food",
+    "nightlife": "Nightlife",
+    "beach": "Beaches",
+    "hiking": "Hiking",
+    "shopping": "Shopping",
+    "sports": "Sports",
+    "well-being": "Well-being",
+    "point-of-view": "Point of view"
+  },
+  "home": {
+    "title-white": "Let AI be your",
+    "title-yellow": "Personal Travel Assistant...",
+    "subtitle": "TRAVEL WITHOUT HASSLE AND WORRY",
+    "button1": "Get a plan - it's free!",
+    "hiking-in-nepal": "Hiking in Nepal",
+    "top-10-bars-in-budapest": "Top 10 bars in Budapest",
+    "cta": {
+      "description": "Start your hassle-free adventure with ExplorAI, your free guide to effortless trip planning.",
+      "button": "Experience it now"
+    },
+    "faq": {
+      "title": "How to use ExplorAI?",
+      "first-entry-title": "Configure your inputs/needs",
+      "first-entry-description": "Enter your trip details such as destination, dates, budget, and interests. The more specific you are, the better AI can tailor your itinerary to your preferences.",
+      "first-entry-button": "Start your journey",
+      "second-entry-title": "Wait for results",
+      "second-entry-description": "After submitting your details, our AI works to create your customized itinerary. This involves analyzing a wide range of travel data to ensure the best match for your trip. You'll be notified once your personalized plan is ready.",
+      "second-entry-button": "Travel around the world",
+      "third-entry-title": "Explore your trip",
+      "third-entry-description": "Review and customize the suggested itinerary. Make necessary changes to meet your needs, explore additional options, and save the final plan. Get ready to experience a trip specially tailored to your needs.",
+      "third-entry-button": "Try it today",
+      "fourth-entry-title": "Can I use ExplorAI without an Internet connection?",
+      "fourth-entry-description": "Absolutely, ExplorAI allows you to save your travel preparations as a PDF document, which you can retrieve and use anytime without needing internet connectivity.",
+      "fifth-entry-title": "How can I modify my travel plans with ExplorAI?",
+      "fifth-entry-description": "ExplorAI allows you to flexibly modify your travel schedule, giving you the freedom to move, include or exclude destinations to create a travel itinerary that matches your personal tastes and schedule.",
+      "sixth-entry-title": "How can I get help with ExplorAI?",
+      "sixth-entry-description": "If you need help or have questions about using ExplorAI, don't hesitate to contact me via email at lou.tigroudja07@gmail.com."
+    }
+  },
+  "footer": {
+    "contact": "Contact",
+    "privacy-policy": "Privacy Policy",
+    "terms-of-use": "Terms of Use"
+  },
+  "account": {
+    "account": "Account:",
+    "account-settings": "Account Settings",
+    "actual-subscription": "Current subscription:",
+    "day-in": "Day in",
+    "days-in": "Days in",
+    "free-service": "(Currently, our services are free for everyone)",
+    "guide-support": "Guides & Support",
+    "help": "Help",
+    "history": "History",
+    "previous-itineraries": "Previous itineraries",
+    "subscription": "Subscription"
+  },
+  "language-selector": {
+    "label": "Choose language:",
+    "languages": {
+      "fr": "Français",
+      "en": "English",
+      "vi": "Tiếng Việt",
+      "de": "Deutsch",
+      "es": "Español",
+      "pt": "Português"
+    }
+  }
+}

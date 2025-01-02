@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "home": "Inicio",
+    "plan-a-trip": "Planificar viaje",
+    "blog": "Blog",
+    "feedback": "Comentarios"
+  },
+  "planner": {
+    "title": "Planifica tu próximo viaje",
+    "where": "¿A dónde te gustaría ir?",
+    "when": "¿Cuándo planeas ir?",
+    "how-many-days": "¿Cuántos días planeas quedarte?",
+    "how-many-people": "¿Cuántas personas viajan?",
+    "budget": "¿Cuál es tu rango de presupuesto?",
+    "what-activities": "¿Qué actividades te interesan?",
+    "solo": "Solo",
+    "couple": "Pareja",
+    "family": "Familia",
+    "friends": "Amigos",
+    "culture": "Cultura",
+    "food": "Comida",
+    "nightlife": "Vida nocturna",
+    "beach": "Playas",
+    "hiking": "Senderismo",
+    "shopping": "Compras",
+    "sports": "Deportes",
+    "well-being": "Bienestar",
+    "point-of-view": "Punto de vista"
+  },
+  "home": {
+    "title-white": "Deja que la IA sea tu",
+    "title-yellow": "Asistente Personal de Viajes...",
+    "subtitle": "VIAJA SIN COMPLICACIONES NI PREOCUPACIONES",
+    "button1": "Obtén un plan - ¡es gratis!",
+    "hiking-in-nepal": "Senderismo en Nepal",
+    "top-10-bars-in-budapest": "Los 10 mejores bares de Budapest",
+    "cta": {
+      "description": "Comienza tu aventura sin complicaciones con ExplorAI, tu guía gratuita para planificar viajes sin esfuerzo.",
+      "button": "Experiméntalo ahora"
+    },
+    "faq": {
+      "title": "¿Cómo usar ExplorAI?",
+      "first-entry-title": "Configura tus entradas/necesidades",
+      "first-entry-description": "Ingresa los detalles de tu viaje como destino, fechas, presupuesto e intereses. Cuanto más específico seas, mejor podrá la IA adaptar tu itinerario a tus preferencias.",
+      "first-entry-button": "Comienza tu viaje",
+      "second-entry-title": "Espera los resultados",
+      "second-entry-description": "Después de enviar tus detalles, nuestra IA trabaja para crear tu itinerario personalizado. Esto implica analizar una amplia gama de datos de viaje para asegurar la mejor coincidencia para tu viaje. Serás notificado cuando tu plan personalizado esté listo.",
+      "second-entry-button": "Viaja por el mundo",
+      "third-entry-title": "Explora tu viaje",
+      "third-entry-description": "Revisa y personaliza el itinerario sugerido. Realiza los cambios necesarios para satisfacer tus necesidades, explora opciones adicionales y guarda el plan final. Prepárate para experimentar un viaje especialmente adaptado a tus necesidades.",
+      "third-entry-button": "Pruébalo hoy",
+      "fourth-entry-title": "¿Puedo usar ExplorAI sin conexión a Internet?",
+      "fourth-entry-description": "Absolutamente, ExplorAI te permite guardar tus preparativos de viaje como documento PDF, que puedes recuperar y usar en cualquier momento sin necesidad de conectividad a internet.",
+      "fifth-entry-title": "¿Cómo puedo modificar mis planes de viaje con ExplorAI?",
+      "fifth-entry-description": "ExplorAI te permite modificar flexiblemente tu agenda de viaje, dándote la libertad de mover, incluir o excluir destinos para crear un itinerario de viaje que se ajuste a tus gustos personales y horario.",
+      "sixth-entry-title": "¿Cómo puedo obtener ayuda con ExplorAI?",
+      "sixth-entry-description": "Si necesitas ayuda o tienes preguntas sobre el uso de ExplorAI, no dudes en contactarme por correo electrónico a lou.tigroudja07@gmail.com."
+    }
+  },
+  "footer": {
+    "contact": "Contacto",
+    "privacy-policy": "Política de privacidad",
+    "terms-of-use": "Términos de uso"
+  },
+  "account": {
+    "account": "Cuenta:",
+    "account-settings": "Configuración de cuenta",
+    "actual-subscription": "Suscripción actual:",
+    "day-in": "Día en",
+    "days-in": "Días en",
+    "free-service": "(Actualmente, nuestros servicios son gratuitos para todos)",
+    "guide-support": "Guías y soporte",
+    "help": "Ayuda",
+    "history": "Historial",
+    "previous-itineraries": "Itinerarios anteriores",
+    "subscription": "Suscripción"
+  },
+  "language-selector": {
+    "label": "Elegir idioma:",
+    "languages": {
+      "fr": "Français",
+      "en": "English",
+      "vi": "Tiếng Việt",
+      "de": "Deutsch",
+      "es": "Español",
+      "pt": "Português"
+    }
+  }
+}

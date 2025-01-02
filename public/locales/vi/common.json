@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "home": "Trang chủ",
+    "plan-a-trip": "Lập kế hoạch chuyến đi",
+    "blog": "Blog",
+    "feedback": "Phản hồi"
+  },
+  "planner": {
+    "title": "Lập kế hoạch chuyến đi tiếp theo của bạn",
+    "where": "Bạn muốn đi đâu?",
+    "when": "Khi nào bạn định đi?",
+    "how-many-days": "Bạn định ở lại bao nhiêu ngày?",
+    "how-many-people": "Có bao nhiêu người đi?",
+    "budget": "Ngân sách của bạn là bao nhiêu?",
+    "what-activities": "Bạn quan tâm đến hoạt động nào?",
+    "solo": "Một mình",
+    "couple": "Cặp đôi",
+    "family": "Gia đình",
+    "friends": "Bạn bè",
+    "culture": "Văn hóa",
+    "food": "Ẩm thực",
+    "nightlife": "Cuộc sống về đêm",
+    "beach": "Bãi biển",
+    "hiking": "Leo núi",
+    "shopping": "Mua sắm",
+    "sports": "Thể thao",
+    "well-being": "Sức khỏe",
+    "point-of-view": "Điểm ngắm cảnh"
+  },
+  "home": {
+    "title-white": "Để AI trở thành",
+    "title-yellow": "Trợ lý du lịch cá nhân của bạn...",
+    "subtitle": "DU LỊCH KHÔNG LO LẮNG VÀ PHIỀN PHỨC",
+    "button1": "Nhận lịch trình - hoàn toàn miễn phí!",
+    "hiking-in-nepal": "Leo núi ở Nepal",
+    "top-10-bars-in-budapest": "10 quán bar hàng đầu ở Budapest",
+    "cta": {
+      "description": "Bắt đầu cuộc phiêu lưu của bạn một cách dễ dàng với ExplorAI, hướng dẫn viên miễn phí giúp bạn lập kế hoạch chuyến đi không mệt mỏi.",
+      "button": "Trải nghiệm ngay"
+    },
+    "faq": {
+      "title": "Làm thế nào để sử dụng ExplorAI?",
+      "first-entry-title": "Cấu hình đầu vào/nhu cầu của bạn",
+      "first-entry-description": "Nhập chi tiết chuyến đi của bạn như điểm đến, ngày tháng, ngân sách và sở thích. Càng chi tiết, AI càng có thể điều chỉnh lịch trình phù hợp với sở thích của bạn.",
+      "first-entry-button": "Bắt đầu chuyến đi",
+      "second-entry-title": "Đợi kết quả",
+      "second-entry-description": "Sau khi gửi thông tin của bạn, AI của chúng tôi sẽ làm việc để tạo lịch trình tùy chỉnh. Điều này bao gồm phân tích nhiều dữ liệu du lịch để đảm bảo sự phù hợp tốt nhất cho chuyến đi của bạn. Bạn sẽ được thông báo khi kế hoạch cá nhân của bạn đã sẵn sàng.",
+      "second-entry-button": "Du lịch khắp thế giới",
+      "third-entry-title": "Khám phá chuyến đi của bạn",
+      "third-entry-description": "Xem xét và tùy chỉnh lịch trình được đề xuất. Thực hiện các thay đổi cần thiết để đáp ứng nhu cầu của bạn, khám phá các tùy chọn bổ sung và lưu kế hoạch cuối cùng. Sẵn sàng trải nghiệm một chuyến đi được thiết kế đặc biệt cho nhu cầu của bạn.",
+      "third-entry-button": "Thử ngay hôm nay",
+      "fourth-entry-title": "Có thể sử dụng ExplorAI mà không cần kết nối Internet không?",
+      "fourth-entry-description": "Hoàn toàn có thể, ExplorAI cho phép bạn lưu kế hoạch chuyến đi của mình dưới dạng tệp PDF, bạn có thể truy xuất và sử dụng bất cứ lúc nào mà không cần kết nối internet.",
+      "fifth-entry-title": "Làm thế nào để sửa đổi kế hoạch du lịch của tôi với ExplorAI?",
+      "fifth-entry-description": "ExplorAI cho phép bạn linh hoạt sửa đổi lịch trình chuyến đi, cho bạn tự do di chuyển, thêm hoặc loại bỏ điểm đến để tạo lịch trình phù hợp với sở thích và thời gian của bạn.",
+      "sixth-entry-title": "Làm thế nào để nhận trợ giúp với ExplorAI?",
+      "sixth-entry-description": "Nếu bạn cần trợ giúp hoặc có câu hỏi về việc sử dụng ExplorAI, đừng ngần ngại liên hệ với tôi qua email tại lou.tigroudja07@gmail.com."
+    }
+  },
+  "footer": {
+    "contact": "Liên hệ",
+    "privacy-policy": "Chính sách bảo mật",
+    "terms-of-use": "Điều khoản sử dụng"
+  },
+  "account": {
+    "account": "Tài khoản:",
+    "account-settings": "Cài đặt tài khoản",
+    "actual-subscription": "Gói đăng ký hiện tại:",
+    "day-in": "Ngày tại",
+    "days-in": "Ngày tại",
+    "free-service": "(Hiện tại, dịch vụ của chúng tôi miễn phí cho tất cả mọi người)",
+    "guide-support": "Hướng dẫn & Hỗ trợ",
+    "help": "Trợ giúp",
+    "history": "Lịch sử",
+    "previous-itineraries": "Lịch trình trước đây",
+    "subscription": "Đăng ký"
+  },
+  "language-selector": {
+    "label": "Chọn ngôn ngữ:",
+    "languages": {
+      "fr": "Français",
+      "en": "English",
+      "vi": "Tiếng Việt",
+      "de": "Deutsch",
+      "es": "Español",
+      "pt": "Português"
+    }
+  }
+}

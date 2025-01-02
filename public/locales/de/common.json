@@ -1,0 +1,89 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "plan-a-trip": "Reise planen",
+    "blog": "Blog",
+    "feedback": "Feedback"
+  },
+  "planner": {
+    "title": "Plane deine nächste Reise",
+    "where": "Wo möchtest du hin?",
+    "when": "Wann möchtest du los?",
+    "how-many-days": "Wie viele Tage möchtest du bleiben?",
+    "how-many-people": "Wie viele Personen reisen?",
+    "budget": "Wie ist dein Budgetrahmen?",
+    "what-activities": "Welche Aktivitäten interessieren dich?",
+    "solo": "Allein",
+    "couple": "Paar",
+    "family": "Familie",
+    "friends": "Freunde",
+    "culture": "Kultur",
+    "food": "Essen",
+    "nightlife": "Nachtleben",
+    "beach": "Strände",
+    "hiking": "Wandern",
+    "shopping": "Shopping",
+    "sports": "Sport",
+    "well-being": "Wellness",
+    "point-of-view": "Aussichtspunkt"
+  },
+  "home": {
+    "title-white": "Lass KI dein",
+    "title-yellow": "Persönlicher Reiseassistent sein...",
+    "subtitle": "REISE OHNE STRESS UND SORGEN",
+    "button1": "Hole dir einen Plan - es ist kostenlos!",
+    "hiking-in-nepal": "Wandern in Nepal",
+    "top-10-bars-in-budapest": "Top 10 Bars in Budapest",
+    "cta": {
+      "description": "Beginne dein stressfreies Abenteuer mit ExplorAI, deinem kostenlosen Reiseplanungshelfer.",
+      "button": "Jetzt erleben"
+    },
+    "faq": {
+      "title": "Wie benutzt man ExplorAI?",
+      "first-entry-title": "Konfiguriere deine Eingaben/Bedürfnisse",
+      "first-entry-description": "Gib deine Reisedetails wie Ziel, Daten, Budget und Interessen ein. Je genauer du bist, desto besser kann die KI deine Reiseroute an deine Vorlieben anpassen.",
+      "first-entry-button": "Starte deine Reise",
+      "second-entry-title": "Warte auf die Ergebnisse",
+      "second-entry-description": "Nach dem Absenden deiner Details arbeitet unsere KI daran, deine personalisierte Reiseroute zu erstellen. Dabei werden umfangreiche Reisedaten analysiert, um die beste Übereinstimmung für deine Reise zu gewährleisten. Du wirst benachrichtigt, sobald dein persönlicher Plan fertig ist.",
+      "second-entry-button": "Reise um die Welt",
+      "third-entry-title": "Erkunde deine Reise",
+      "third-entry-description": "Überprüfe und passe die vorgeschlagene Reiseroute an. Nimm notwendige Änderungen vor, um deine Bedürfnisse zu erfüllen, erkunde zusätzliche Optionen und speichere den endgültigen Plan. Mach dich bereit für eine Reise, die speziell auf deine Bedürfnisse zugeschnitten ist.",
+      "third-entry-button": "Probiere es heute aus",
+      "fourth-entry-title": "Kann ich ExplorAI ohne Internetverbindung nutzen?",
+      "fourth-entry-description": "Absolut, ExplorAI ermöglicht es dir, deine Reisevorbereitungen als PDF-Dokument zu speichern, das du jederzeit auch ohne Internetverbindung abrufen und nutzen kannst.",
+      "fifth-entry-title": "Wie kann ich meine Reisepläne mit ExplorAI ändern?",
+      "fifth-entry-description": "ExplorAI erlaubt dir, deinen Reiseplan flexibel anzupassen. Du hast die Freiheit, Ziele zu verschieben, hinzuzufügen oder zu entfernen, um eine Reiseroute zu erstellen, die deinem persönlichen Geschmack und Zeitplan entspricht.",
+      "sixth-entry-title": "Wie erhalte ich Hilfe bei ExplorAI?",
+      "sixth-entry-description": "Wenn du Hilfe brauchst oder Fragen zur Nutzung von ExplorAI hast, zögere nicht, mich per E-Mail unter lou.tigroudja07@gmail.com zu kontaktieren."
+    }
+  },
+  "footer": {
+    "contact": "Kontakt",
+    "privacy-policy": "Datenschutzerklärung",
+    "terms-of-use": "Nutzungsbedingungen"
+  },
+  "account": {
+    "account": "Konto:",
+    "account-settings": "Kontoeinstellungen",
+    "actual-subscription": "Aktuelle Abonnement:",
+    "day-in": "Tag in",
+    "days-in": "Tage in",
+    "free-service": "(Derzeit sind unsere Dienste für alle kostenlos)",
+    "guide-support": "Anleitungen & Support",
+    "help": "Hilfe",
+    "history": "Verlauf",
+    "previous-itineraries": "Vorherige Reiserouten",
+    "subscription": "Abonnement"
+  },
+  "language-selector": {
+    "label": "Sprache wählen:",
+    "languages": {
+      "fr": "Français",
+      "en": "English",
+      "vi": "Tiếng Việt",
+      "de": "Deutsch",
+      "es": "Español",
+      "pt": "Português"
+    }
+  }
+}
